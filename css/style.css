@@ -1,0 +1,276 @@
+@charset "UTF-8";
+/*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+.wrapper {
+  height: 100vh;
+}
+
+.header-main {
+  color: white;
+  background: url("../img/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall.jpg") 0 50%/cover no-repeat;
+  height: 80vh;
+  width: 100%;
+  font-family: "Raleway";
+}
+
+.header-nav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.header-nav-black {
+  background-color: black;
+  height: 80px;
+}
+
+.header-nav__ullink {
+  font-size: 18px;
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.header-nav__ullink li {
+  color: white;
+}
+
+.main-section {
+  height: 85vh;
+  text-align: center;
+  padding-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.img-section {
+  margin: 0 auto;
+}
+.img-section img {
+  height: 220px;
+  width: 220px;
+  border-radius: 100px;
+}
+
+.main-text {
+  margin: 0 auto;
+}
+
+.main-text__text {
+  font-size: 40px;
+  font-weight: 500;
+}
+.main-text__text p {
+  font-size: 28px;
+}
+
+.main-text__buttons {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+  display: flex;
+}
+.main-text__buttons button {
+  width: 130px;
+  height: 50px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.icons-network {
+  margin-top: 70px;
+}
+.icons-network img {
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+}
+
+main {
+  height: 100vh;
+  font-family: "Raleway";
+}
+
+.about-me-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(34, 60, 80, 0.69);
+          box-shadow: 0px 0px 26px -2px rgba(34, 60, 80, 0.69);
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.about-me-content__about {
+  max-width: 50%;
+}
+.about-me-content__about .title-about {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-me-content__base-info {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.title-base {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.keys {
+  font-weight: bold;
+}
+
+.skills-box {
+  margin-top: 130px;
+  -webkit-box-shadow: 0px 0px 26px -2px rgba(34, 60, 80, 0.69);
+          box-shadow: 0px 0px 26px -2px rgba(34, 60, 80, 0.69);
+  padding: 50px;
+}
+.skills-box h2 {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+.skills-box h4 {
+  font-weight: bold;
+}
+
+.skills-content {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.percent {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {
+  width: 55%;
+  background-color: #808080;
+}
+
+.css {
+  width: 45%;
+  background-color: #808080;
+}
+
+.js {
+  width: 35%;
+  background-color: #808080;
+}
+
+.react {
+  width: 20%;
+  background-color: #808080;
+}
+
+.english {
+  width: 65%;
+  background-color: #808080;
+}
